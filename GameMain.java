@@ -81,9 +81,9 @@ public class GameMain extends JPanel implements MouseListener{
 	}
 	/** Custom painting codes on this JPanel */
 	public void paintComponent(Graphics g) {
-		// Fill background and set colour to white
+		// Fill background and set colour to cyan
 		super.paintComponent(g);
-		setBackground(Color.WHITE);
+		setBackground(Color.CYAN);
 		// Ask the game board to paint itself
 		board.paint(g);
 		
